@@ -17,5 +17,5 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
         aria-label="Search products"
       />
     </div>
-  );
+  )
 }
