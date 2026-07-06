@@ -1,0 +1,17 @@
+.employees-page__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.employees-page__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  margin: 0;
+}
+
+.employees-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

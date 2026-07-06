@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kirill8224.github.io/DummyShope/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",

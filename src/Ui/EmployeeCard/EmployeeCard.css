@@ -1,0 +1,80 @@
+.employee-card {
+  display: flex;
+  gap: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.employee-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.employee-card__photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--border);
+}
+
+.employee-card__body {
+  flex: 1;
+  text-align: left;
+}
+
+.employee-card__name {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-heading);
+}
+
+.employee-card__details {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.employee-card__row {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.employee-card__row dt {
+  font-weight: 600;
+  color: var(--text-muted);
+  min-width: 70px;
+}
+
+.employee-card__row dd {
+  margin: 0;
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .employee-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .employee-card__body {
+    text-align: center;
+  }
+
+  .employee-card__row {
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .employee-card__row dt {
+    min-width: unset;
+  }
+}

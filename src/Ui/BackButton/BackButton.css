@@ -1,0 +1,21 @@
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-light);
+}
