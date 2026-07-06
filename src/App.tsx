@@ -22,7 +22,7 @@ function AppRoutes() {
       setActiveCategory(category);
     }
     setSearchQuery('');
-  };
+  }
 
   const handleSearchChange = (value: string): void => {
     setSearchQuery(value);
